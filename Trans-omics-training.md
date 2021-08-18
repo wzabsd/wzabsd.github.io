@@ -19,7 +19,7 @@ editor. Consequently, unlike *Knit*, *Preview* does not run any R code
 chunks. Instead, the output of the chunk when it was last run in the
 editor is displayed.
 
-![](Trans-omics%20analysis.png)
+![](/home/wzabsd/Desktop/TransomicAnalysis/Transomic_training/Trans-omics%20analysis.png)
 
 # Data preparing
 
@@ -451,7 +451,7 @@ go_bp=enrichGO( gene       = enzyme_info_refine$ensembl_gene_id,
 barplot(ego_bp,title="The GO_BP enrichment analysis of all DEGs")
 ```
 
-![](Trans-omics-training_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
+![](Trans-omics-training_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 
 ``` r
 kk=enrichKEGG( gene      =enzyme_info_refine$entrezgene_id,
@@ -461,7 +461,7 @@ kk=enrichKEGG( gene      =enzyme_info_refine$entrezgene_id,
 barplot(kk, title="The KEGG enrichment analysis of all DEGs")
 ```
 
-![](Trans-omics-training_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+![](Trans-omics-training_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
 
 ## Get PTM information
 
